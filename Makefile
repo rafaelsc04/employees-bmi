@@ -1,12 +1,9 @@
-build:
-	@if [ ! -d dist ]; then mkdir dist; fi
-	@gcc src/main.c -o dist/main
-
 run:
-	@dist/main
+	./prog
 
-clean:
-	@rm -r dist
+build:
+	gcc sqlite3.c main.c -o prog
 
-exec: build run
-
+exec:
+	$(MAKE) build
+	$(MAKE) run
