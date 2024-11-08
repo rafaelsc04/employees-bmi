@@ -1,8 +1,8 @@
 run:
-	./prog
+	./app
 
 build:
-	gcc sqlite3.c main.c -o prog
+	@gcc -o app main.c
 
 exec:
 	$(MAKE) build
