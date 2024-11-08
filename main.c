@@ -1,5 +1,19 @@
 #include <stdio.h>
 
+/*
+
+Correções:
+    - [] Adicionar na Struct a quantidade de elementos mínima querida para a tarefa (6)
+    - [] Adicionar o descritivo das variáveis e de seus tamanhos
+    - [] Incluir aspas ao referenciar as variáveis no documento
+    - [] Fazer um CRUD completo
+    - [] Evidencias dos testes
+    - [] Evidencias das funções desenvolvidas
+    - [] Evidencias das escritas nos arquivos
+    - [] Apresentar o código completo no PDF
+
+*/
+
 struct Employee {
     int id;
     char name[32];
